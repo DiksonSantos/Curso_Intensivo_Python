@@ -1,0 +1,20 @@
+On a Crach Course.
+https://ehmatthes.github.io/pcc/solutions/README.html
+ 
+	Arquivos Para os Exercicios:
+	https://github.com/ehmatthes/pcc/tree/master/chapter_10
+	
+	SOLUÇÕES:
+	https://ehmatthes.github.io/pcc/solutions/README.html
+
+
+
+Video Aula de mais de 1H:
+https://www.youtube.com/watch?v=f79MRyMsjrQ
+
+
+
+
+
+GUANABARA:
+https://github.com/LeandroMontanari/python3-curso-em-video

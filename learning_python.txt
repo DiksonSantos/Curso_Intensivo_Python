@@ -1,0 +1,12 @@
+
+Aprendi que esta linguagem esta em alta, entre as primeiras mais usadas.
+Que é muito facil de se aprender comparando-se com outras linguagens.
+É de uso geral, mas é uma das preferidas para aplicações cientificas em geral.
+Sobre a linguagem em si:
+Aprendi a como usar entradas de dados.
+Como funciona os tipos de dados nas variaveis.
+Aprendi programação com condicionais e laçoes FOR (quantidade) e WHILE (continuo), e também a usar FLAGs.
+Aprendi metodos de usar Listas, e seus tipos como Dicionarios{}, tuplas() e Listas[] ,e metodos de Exibição das mesmas.
+Aprendi sobre funções e classes (uma das partes que mais me exigiram até agora).
+E, acabei de aprender o B A BA, o inicio de analise de dados, vendo hoje como abrir um simples arquivo TXT no terminal.
+Por enquanto (em 09-01-19) acredito que seja mais ou menos isso o que eu vi até hoje.

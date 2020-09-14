@@ -1,0 +1,33 @@
+
+Criar um objeto a partir de uma classe é uma operação conhecida como
+instanciação, e trabalhamos com instâncias de uma classe.
+
+
+243:
+Uma função que faz parte de uma classe é um método. Tudo que
+aprendemos sobre funções também se aplica aos métodos;
+
+_______________________________________________________________________
+Split, comando Python para dividir strings.
+Python cobra
+
+Eis um comando que pode ser muito útil em diversas situações de manipulação de strings.
+
+O comando split recebe como parâmetro um caractere separador e um número máximo de pedaços (opcional).
+
+Ele retorna uma lista de strings, são os pedaços da string original divididos pelo separador. Ele não altera a string original.
+
+Exemplo:
+
+>>> 'www.eupodiatamatando.com'.split('.')
+['www', 'eupodiatamatando', 'com']
+>>> '19:16:23'.split(':')
+['19', '16', '23']
+>>> hora, minuto, segundos = '19:16:23'.split(':')
+>>> hora
+'19'
+>>> minuto
+'16'
+>>> segundos
+'23'
+__________________________________________________________________________
