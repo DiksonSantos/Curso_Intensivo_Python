@@ -7,11 +7,11 @@ A = Car.read_odometer.odometer_reading    -> a Variavel interna odometer_reading
 
 class Car():
 
-    def __init__(self, fabrica, modelo, ano):
-        self.make =  fabrica
+    def __init__(self, fabrica, modelo, ano, odometro=0):
+        self.make = fabrica
         self.model = modelo
         self.year = ano
-        self.odometro_leitor = 0
+        self.odometro = odometro
 
     def obtenha_description_nome(self):
         #print("Fabricas: " + self.make)
@@ -20,32 +20,30 @@ class Car():
         long_name = self.make + " " + self.model + " " + str(self.year)
         return long_name.upper()
 
-    def read_odometer(self):
-        """Exibe uma frase que mostra a milhagem do carro."""
-        print("This Car Has " + str(self.odometro_leitor) + " Miles on It")
+
 
 
     def update_odometer(self, mileage):
         """Define o valor de leitura do hodômetro com o valorespecificado."""
-        self.odometer_reading = mileage
+        self.odometro = mileage
+
+
+    def read_odometer(self):
+        """Exibe uma frase que mostra a milhagem do carro."""
+        print("This Car Has " + str(self.odometro) + " Miles on It")
 
 
 Meu_novo_Carro = Car("Wolks ", "BMW ", 2018) #Aqui é passado as informações/parametros (como se fosse la pra primeira linha)
 print(Meu_novo_Carro.obtenha_description_nome()) #Fabrica e Modelo (somente)
 
-Meu_novo_Carro.update_odometer = 25 #Aqui para o Bloco Ler_Odometro não mostrar 0 , passamos o valor 25 para ser mostrado
-'''A maneira mais simples de modificar o valor de um atributo é acessá-lo
-diretamente por meio de uma instância.'''
-Meu_novo_Carro.read_odometer() #Aqui ele esta chamando o Bloco Ler_Odometro
+# Recebeu Nova Kilometragem
+Meu_novo_Carro.update_odometer(355)
 
-
-Meu_novo_Carro.update_odometer(23)
+# Apresenta novo KM recebid
 Meu_novo_Carro.read_odometer()
 
 
 
-
-#O Codigo a cima esta todo lazarentiado
 
 '''
 #A baixo esta o trecho Original da apostila
